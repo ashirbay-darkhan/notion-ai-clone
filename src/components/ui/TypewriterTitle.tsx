@@ -1,8 +1,8 @@
-"use client"
-import React from 'react';
-import Typewriter from 'typewriter-effect'
+"use client";
+import React from "react";
+import Typewriter from "typewriter-effect";
 
-type Props = {}
+type Props = {};
 
 const TypewriterTitle = (props: Props) => {
   return (
@@ -12,10 +12,10 @@ const TypewriterTitle = (props: Props) => {
       }}
       onInit={(typewriter) => {
         typewriter
-          .typeString("🚀 Supercharged Productivity.")
-          .pauseFor(1000)
+          .typeString("Supercharged Productivity. 🚀")
+          .pauseFor(500)
           .deleteAll()
-          .typeString('🤖 AI-Powered Insights.')
+          .typeString("AI-Powered Insights. 🤖")
           .start();
       }}
     />
